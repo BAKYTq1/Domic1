@@ -5,5 +5,392 @@
 }
 .container{
 width: 1440px;
-margin:  0 auto;
+margin:  auto;
 }
+/* 2 section*/
+.renar{
+    width: 1920px;
+    height: 500px;
+}
+.dunor{
+margin-left: 920px;
+position: relative;
+}
+.kher{
+margin-top: 290px;
+margin-left: 23px;
+position: absolute;
+top: 0;
+}
+.clen{
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    text-align: left;
+}
+.vrenbas{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 400px;
+}
+/* 1 */
+.card {
+    width: 331px;
+    height: 164px;
+    background: rgba(255, 255, 255, 1)
+    border  1px solid white;
+    border-radius: 17px;
+    transition: all 0.5s;
+  }
+  .card:hover {
+      border: 1px solid black;
+      transform: scale(1.05);
+    }
+    .card:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+    }
+    .imer{
+      margin-top: 33px;
+      text-align: center;
+    }
+    .tener{
+        margin-top: 24px;
+        margin-left: 22px;
+    }
+/*2*/
+.car {
+    width: 331px;
+    height: 164px;
+    background:rgba(255, 255, 255, 1)
+    border 1px solid white;
+    border-radius: 17px;
+    transition: all 0.5s;
+  }
+  .car:hover {
+      border: 1px solid black;
+      transform: scale(1.05);
+    }
+    .car:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+    }
+    .ime{
+      margin-top: 33px;
+      text-align: center;
+    }
+    .tene{
+        margin-top: 24px;
+        margin-left: 22px;
+    }
+/* 3 */
+.cards {
+    width: 331px;
+    height: 164px;
+    background: rgba(255, 255, 255, 1)
+    border 1px solid white;
+    border-radius: 17px;
+    transition: all 0.5s;
+  }
+  .cards:hover {
+      border: 1px solid black;
+      transform: scale(1.05);
+    }
+    .cards:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+    }
+    .imers{
+      margin-top: 33px;
+      text-align: center;
+    }
+    .teners{
+        margin-top: 24px;
+        margin-left: 22px;
+    }
+/* 4 */
+.cardf {
+    width: 331px;
+    height: 164px;
+    background:rgba(255, 255, 255, 1)
+    border 1px solid white;
+    border-radius: 17px;
+    transition: all 0.5s;
+  }
+  .cardf:hover {
+      border: 1px solid black;
+      transform: scale(1.05);
+    }
+    .cardf:active {
+        transform: scale(0.95) rotateZ(1.7deg);
+    }
+    .imerf{
+      margin-top: 33px;
+      text-align: center;
+    }
+    .tenerf{
+        margin-top: 24px;
+        margin-left: 22px;
+    }
+    /* 3 section */
+    .nber{
+        width: 1920px;
+        height: 1510px;
+        margin: auto;
+        z-index: 10;
+    }
+    .trent{
+      width: 468px;
+      height: 60px;
+      margin-top: 216px;
+      margin-left: 231px;
+      z-index: -2;
+    }
+    .btnf{
+      font-family: Raleway;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 60px;
+    }
+    .daier{
+        display: flex;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    .cardfe {
+        width: 440px;
+        height: 600px;
+        background:rgba(255, 255, 255, 1)
+        border 1px solid white;
+        border-radius: 17px;
+        transition: all 0.5s;
+      }
+      .tenerfe{
+        position: relative;
+      }
+      .ulenoli{
+        position: absolute;
+        z-index: 4;
+        margin-top: 24px;
+        margin-left: 322px;
+      }
+
+      .dfghjk{
+        margin-top: -94px;
+        margin-left: 339px;
+        z-index: 8;
+      }
+       .cardfe:hover {
+          border: 1px solid black;
+          transform: scale(1.05);
+        }
+        .cardfe:active {
+            transform: scale(0.95) rotateZ(1.7deg);
+        }
+        .mderwq{
+         width: 187px;
+         height: 36px;
+         
+        }
+        .imerfe{
+        font-family: Raleway;
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 36px;
+        text-align: left;
+
+        margin-top: 33px;
+        text-align: center;
+    }
+    .kloner{
+        margin-top: 54px;
+        margin-left: 20px;
+        row-gap: 30px;
+        
+    }
+    .dinb{
+        display: flex;
+        gap: 10px;
+        row-gap: 30px;
+    }
+    .renberf{
+        display: flex;
+        gap: 10px;
+    }
+    .furul{
+        display: flex;
+        gap: 10px;
+    }
+    .rherer{
+        display: flex;
+        gap: 10px;
+    }
+    .clasict{
+        display: flex;
+        margin-bottom: 70px;
+    }
+    .renetti{
+        width: 216px;
+        height: 33px;
+    }
+    .fladettr{
+        font-family: "Raleway";
+        font-size: 22px;
+        font-weight: 900;
+        line-height: 33px;
+        margin-left: 20px;
+    }
+    .gitent{
+        width: 98px;
+        height: 24px;
+        margin-left: auto;
+    }
+    .floren{
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color: rgba(244, 104, 63, 1); 
+        border: none;   
+        background-color: rgba(255, 255, 255, 1);
+    }
+     /* экинчи катар  */
+    .hyului{
+        display: flex;
+        gap: 30px;
+        position: relative;
+        margin-top: 50px;
+    }
+      .daierui{
+          display: flex;
+          position: absolute;
+          gap: 30px;
+      }
+  
+      .cardfeui {
+          width: 440px;
+          height: 600px;
+          background:rgba(255, 255, 255, 1)
+          border 1px solid white;
+          border-radius: 17px;
+          transition: all 0.5s;
+        }
+        .cardfeui:hover {
+            border: 1px solid black;
+            transform: scale(1.05);
+          }
+          .cardfeui:active {
+              transform: scale(0.95) rotateZ(1.7deg);
+          }
+          .mderwqui{
+           width: 187px;
+           height: 36px;
+           
+          }
+          .imerfeui{
+          font-family: Raleway;
+          font-size: 20px;
+          font-weight: 800;
+          line-height: 36px;
+          text-align: left;
+  
+          margin-top: 33px;
+          text-align: center;
+      }
+      .klonerui{
+          margin-top: 54px;
+          margin-left: 20px;
+          
+      }
+      .dinbui{
+          display: flex;
+          gap: 10px;
+      }
+      .renberfui{
+          display: flex;
+          gap: 10px;
+      }
+      .furului{
+          display: flex;
+          gap: 10px;
+      }
+      .rhererui{
+          display: flex;
+          gap: 10px;
+      }
+      .clasictui{
+          display: flex;
+          margin-bottom: 70px;
+      }
+      .renettiui{
+          width: 216px;
+          height: 33px;
+      }
+      .fladettrui{
+          font-family: "Raleway";
+          font-size: 22px;
+          font-weight: 900;
+          line-height: 33px;
+          margin-left: 20px;
+      }
+      .gitentui{
+          width: 98px;
+          height: 24px;
+          margin-left: auto;
+      }
+      .florenui{
+          font-family: Montserrat;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 24px;
+          color: rgba(244, 104, 63, 1); 
+          border: none;   
+          background-color: rgba(255, 255, 255, 1);
+      }
+      .dfrtu{
+        width: 280px;
+        height: 50px;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        color:rgba(255, 255, 255, 1);
+         background-color:rgba(244, 104, 63, 1);
+         margin-left: 518px;
+         border-radius: 30px;
+         margin-top: 15px
+      }
+      /* 5 section */
+       .dkingeuio{
+           width: 1920px;
+           height: 700px;
+           margin: auto;
+           line-height: 30px;
+       }
+       .bvert{
+        margin-left: 234px;
+        
+       }
+
+        /* 6 section */
+        .nmjer{
+            width: 1920px;
+            height: 700px;
+            margin: auto;  
+        }
+        .mrtulj{
+            position: relative;
+        }
+        .xsert{
+            width: 373px;
+            height: 60px;        
+        }
+    .xsder{
+        font-family: Raleway;
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 60px;
+        /* text-align: left; */
+        color: rgba(255, 255, 255, 1);
+        position: absolute; 
+        
+    }
