@@ -409,14 +409,16 @@ transition: 2s;
 cursor: pointer;
 }
 .container1-1{
+  padding-top: 100px;
     width: 1900px;
-    height: 500px;
+    height: 1100px;
     background-image: url(./img/bg\ services.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 200px;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    margin: 0 auto;
 }
 .h1-1{
+  padding-top: 100px;
   font-family: Raleway;
 font-size: 40px;
 font-weight: 900;
@@ -435,7 +437,7 @@ margin-left: 250px;
 height: 130px;
 display: flex;
 padding: 50px 45px;
-margin-top: 150px;
+margin-top: 70px;
 border-radius: 12px;
 gap: 20px;
 align-items: center;
@@ -463,7 +465,7 @@ transition: all 0.5s;
   } 
 .footer{
   width: 1920px;
-  height: 350px;
+  height: 360px;
 background-color: #161723;  
 margin: 0 auto;
 }
@@ -472,7 +474,7 @@ margin: 0 auto;
   width: 1400px;
 height: 200px;
 margin: 0 auto;
-padding-top: 90px;
+padding-top: 130px;
 justify-content: space-between;
 }
 .div-footer{
@@ -483,12 +485,12 @@ justify-content: space-between;
   color: #404256;
 }
 .tag-footer{
-  padding-top: 110px;
+  padding-top: 100px;
   color: #404256;
   font-family: Montserrat;
 font-size: 14px;
 font-weight: 500;
-line-height: 21px;
+line-height: 19px;
 text-align: left;
 }
 .div-footer1{
@@ -499,7 +501,7 @@ text-align: left;
   font-family: Raleway;
   font-size: 22px;
   font-weight: 800;
-  line-height: 33px;
+  line-height: 19px;
   text-align: left;
   color: white;
   padding-bottom: 10px;
@@ -508,7 +510,7 @@ text-align: left;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 16px;
 font-weight: 500;
-line-height: 31px;
+line-height: 29px;
 text-align: left;
 color: #C0C2D7;
 
@@ -521,7 +523,7 @@ color: #C0C2D7;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 16px;
 font-weight: 600;
-line-height: 31px;
+line-height: 29px;
 text-align: left;
 color: #C0C2D7;
 }
@@ -542,7 +544,8 @@ line-height: 19.5px;
 margin-left: 150px;
 }
 .div-footer3-img{
-  margin-top: 150px;
+  align-items: center;
+  margin-top: 140px;
   margin-left: 106px;
 }
 .div-footer3-img img{
@@ -927,6 +930,7 @@ top: 0;
       } 
       /* 5 section */
        .dkingeuio{
+    
            width: 1920px;
            height: 700px;
            margin: auto;
@@ -935,6 +939,14 @@ top: 0;
        .bvert{
         margin-left: 234px;
         
+       }
+       .vkinhr{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 40px;
+font-weight: 800;
+line-height: 60px;
+text-align: left;
+
        }
 
         /* 6 section */
@@ -946,18 +958,49 @@ top: 0;
         .mrtulj{
             position: relative;
         }
-        .xsert{
+        .zxert{
+          position: relative;
+          top: -540px;
+          left: 380px;
             width: 373px;
             height: 60px;        
         }
+        .zxert h1{
+          padding-top: 20px;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 28.8px;
+text-align: left;
+color: white;
+width: 270px;
+        }
+        .zxert button{
+          width: 260px;
+height: 50px;
+border-radius: 20px;
+margin-top: 50px;
+          font-size: 18px;
+          color: white;
+          background-color: #F4683F;
+          border: none;
+           transition: all 0.5s; 
+      } 
+      .zxert button:hover { 
+          cursor: pointer;
+          transform: scale(1.05); 
+        } 
+        .zxert button:active { 
+          transform: scale(0.95) rotateZ(2.7deg); 
+        }
         .xsder{
-            font-family: Raleway;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-size: 40px;
             font-weight: 800;
             line-height: 60px;
-            /* text-align: left; */
-            color: rgba(255, 255, 255, 1);
-            position: absolute;  
+            text-align: left;
+            color: white;
+           
         }
         .button-click{
           width: 282px;
