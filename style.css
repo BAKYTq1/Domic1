@@ -2,21 +2,21 @@
     box-sizing: border-box;
     margin: 0 ;
     padding: 0;
-}
-.container1{
-width: 1920px;
-height: 949px;
+  }
+  .container1{
+    /* width: 1920px; */
+    height: 949px;
+    background-image: url(./img/bg\ \(1\).svg);
 margin: 0 auto;    
 background-repeat: no-repeat;
 background-size: cover;
-    background-image: url(./img/bg\ \(1\).svg);
 transform: rotate(180deg);
 transform: rotateY(-180deg);
 position: relative;
 z-index: 1;
 }
 .container{
-    width: 1920px;
+    /* width: 1920px; */
 height: 949px;
 margin: 0 auto; 
 }
@@ -45,6 +45,43 @@ transform: rotateY(-180deg);
 .locator{
     margin-left: 20px;
 }
+.details {
+  padding-top: 10px;
+padding-left: 20px;
+  width: 136px;
+  height: 40px;
+  color: white;
+  margin-left: 20px;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  background: transparent;
+  backdrop-filter: blur (50px);
+  border: 2px solid white;
+}
+.button-fon{
+  background-color: #161723;
+  margin-top: 10px;
+  color: white;
+  border: none;
+}
+.details button{
+  border: none;
+  background-color: #161723;
+  color: white;
+  width: 100px;
+  height: 40px;
+border-radius: 10px;
+padding-top: 5px;
+padding-left: 20px;
+align-items: center;
+}
+.details button img{
+  margin-left: -15px;
+  margin-top: -20px;
+  display: flex;
+width: 30%;
+}
 .block-1 li {
     margin-top: 10px;
 list-style: none;
@@ -55,7 +92,7 @@ line-height: 21.94px;
 text-align: left;
 
 }
-.block-1 button{
+.button-span{
     color: white;
     margin-left: 20px;
     width: 136px;
@@ -65,10 +102,37 @@ background: transparent;
 backdrop-filter: blur (50px);
 border: 2px solid white;
 }
-.block-1 button:hover{
+.button-span:hover{
     background-color: #F4683F;
     cursor: pointer;
     transition: 2s;
+    animation: bounce 0.3 ease infinite;
+}
+.button-span span {
+  animation: bounce 0.6s ease infinite;
+}
+.button-span span:nth-child(2) {
+animation-delay: 0.1s;
+}
+.button-span span:nth-child(3) {
+animation-delay: 0.2s;
+}
+.block-1 button span:nth-child(4) {
+animation-delay: 0.3s;
+}
+.block-1 button span:nth-child(5) {
+animation-delay: 0.4s;
+}
+.block-1 button span:nth-child(6) {
+animation-delay: 0.6s;
+}
+@keyframes bounce {
+  0%, 100%{
+transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
 }
 .block-2{
     margin-right: -400px;
@@ -290,6 +354,16 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   .trio img{
     width: 40%;
+    transition: all 0.5s;
+  }
+  .trio img:hover{
+    width: 60%;
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+  .trio img:active{
+    width: 80%;
+    transform: scale(0.95) rotateZ(1.7deg); 
   }
   .zaibal{
     margin-left:40px;
@@ -325,7 +399,7 @@ border-radius: 10px; border-radius: 10px;
   width: 140px;
   height: 50px;
   margin-top: 11px;
-margin-left: 45px;
+margin-left: 46px;
 border-top-left-radius: 20px;
 border-bottom-left-radius: 20px;
 border: 1px solid #C0C2D7;
@@ -333,11 +407,11 @@ outline: none;
 padding-left: 20px;
 }
 .otezd{
-    position: absolute;
-    top: 75px;
-right: 36px;
+    position: relative;
+    top: -50px;
+    left: 184px;
     width: 140px;
-    height: 52px;
+    height: 50px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border: 1px solid #C0C2D7;
@@ -603,7 +677,7 @@ top: 0;
       transform: scale(1.05);
     }
     .card:active {
-        transform: scale(0.95) rotateZ(1.7deg);
+        transform: scale(1) rotateZ(1.7deg);
     }
     .imer{
       margin-top: 33px;
@@ -761,7 +835,7 @@ top: 0;
     .kloner{
         margin-top: 54px;
         margin-left: 20px;
-        row-gap: 30px;
+        line-height: 30px;
         
     }
     .dinb{
@@ -849,13 +923,14 @@ top: 0;
           font-weight: 800;
           line-height: 36px;
           text-align: left;
-  
           margin-top: 33px;
           text-align: center;
+          line-height: 30px;
       }
       .klonerui{
           margin-top: 54px;
           margin-left: 20px;
+          line-height: 30px;
           
       }
       .dinbui{
@@ -1023,4 +1098,4 @@ margin-top: 50px;
         } 
         .button-click:active { 
             transform: scale(0.95) rotateZ(1.7deg); 
-        } 
+        }
